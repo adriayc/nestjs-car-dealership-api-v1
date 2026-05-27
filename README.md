@@ -13,3 +13,7 @@ Está inspirado en la arquitectura de Angular, pero para el servidor.
 4. Soporte integrado.
 5. Compatible con Express y Fastify.
 6. Excelente para testing.
+
+### Módule
+
+Un módule es la unidad básica de organización de la aplicación.
