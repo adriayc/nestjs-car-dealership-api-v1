@@ -31,3 +31,7 @@ NOTA: Todos los services son providers y no todos los providers son services.
 ### Pipes
 
 Los pipes son como un filtro inteligente que examina y transforma los datos antes de que lleguen a tu lógica.
+
+### Exception filters
+
+Los exception filters son como un sistema de emergencia que atrapa errores y los transforma en respuetas limpias y controladas.
