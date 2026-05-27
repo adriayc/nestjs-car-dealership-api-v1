@@ -1,1 +1,37 @@
 # CAR DEALERSHIP API (NestJS)
+
+## ¿Qué es NestJS?
+
+NestJs es un framework para construir aplicaciones backend en Node.js, basado en TypeScript.
+Está inspirado en la arquitectura de Angular, pero para el servidor.
+
+### ¿Por qué usarlo?
+
+1. Arquitectura sólida desde el inicio.
+2. Escalable (proyectos grandes).
+3. Inyección de dependencias (nivel esterprice).
+4. Soporte integrado.
+5. Compatible con Express y Fastify.
+6. Excelente para testing.
+
+### Módule
+
+Un módule es la unidad básica de organización de la aplicación.
+
+### Controller
+
+Un controller es una clase que maneja las solicitudes HTTP antrantes y devuleve respuestas.
+
+### Service
+
+Un service es el motor silecioso que hace el trabajo real detrás de escena.
+
+NOTA: Todos los services son providers y no todos los providers son services.
+
+### Pipes
+
+Los pipes son como un filtro inteligente que examina y transforma los datos antes de que lleguen a tu lógica.
+
+### Exception filters
+
+Los exception filters son como un sistema de emergencia que atrapa errores y los transforma en respuetas limpias y controladas.
