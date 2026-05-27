@@ -37,6 +37,20 @@ CAR-DEALERSHIP API (NestJS)
                 > GET: http://localhost:3000/cars                       Click "Send"
             - Find One By ID
                 > Get: http://localhost:3000/cars/1                     Click "Send"
+            - Create Car
+                > POST: http://localhost:3000/cars                      Click "Send"
+                    > Body | x-www-form-urlencoded
+                        KEY                     VALUE
+                        brand                   Volvo
+                        model                   XC40
+            - Update Car
+                > PATCH: http://localhost:3000/cars/1                   Click "Send"
+                    > Body | x-www-form-urlencoded
+                        KEY                     VALUE
+                        brand                   Volvo update
+                        model                   XC40
+            - Delete Car
+                > DELETE: http://localhost:3000/cars/1                  Click "Send"
 
     * VSCode
         - Atajos
