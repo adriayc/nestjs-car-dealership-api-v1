@@ -57,7 +57,7 @@ CAR-DEALERSHIP API (NestJS)
                         brand                   Volvo update
                         model                   XC40 update
             - Delete Car
-                > DELETE: http://localhost:3000/cars/1                  Click "Send"
+                > DELETE: http://localhost:3000/cars/{{UUID}}           Click "Send"
 
     * VSCode
         - Atajos
