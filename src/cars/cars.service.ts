@@ -62,4 +62,8 @@ export class CarsService {
 
     return { msg: `Car with id ${car.id} removed` };
   }
+
+  fillCarsWithSeedData(cars: Car[]) {
+    this.cars = cars;
+  }
 }

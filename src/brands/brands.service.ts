@@ -55,4 +55,8 @@ export class BrandsService {
 
     return { msg: `Brand width id ${brand.id} removed` };
   }
+
+  fillBrandsWithSeedData(brands: Brand[]) {
+    this.brands = brands;
+  }
 }
