@@ -11,6 +11,10 @@ CAR-DEALERSHIP API (NestJS)
         $ yarn run start                    // Run app (API URL: http://localhost:3000/)
         $ yarn run start:dev                // Run app (development mode)
 
+        Construir y ejecutar el build de prod 
+        $ yarn build
+        $ yarn start:prod
+
     - Agregar dependencias
         + UUID
             $ yarn add uuid
