@@ -1,8 +1,9 @@
 import { Module } from '@nestjs/common';
+import { CarsModule } from './cars/cars.module';
 
 // Modulo principal
 @Module({
-  imports: [],
+  imports: [CarsModule],
   controllers: [],
   providers: [],
   exports: [],

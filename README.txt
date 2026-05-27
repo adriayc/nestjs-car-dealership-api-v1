@@ -11,6 +11,14 @@ CAR-DEALERSHIP API (NestJS)
         $ yarn run start                    // Run app (API URL: http://localhost:3000/)
         $ yarn run start:dev                // Run app (development mode)
 
+    - Nestjs CLI
+        - Ayuda de comandos
+            $ nest --help | nest -h
+        - Crear un module
+            $ nest g mo cars
+        - Crear un controller
+            $ nest g co cars
+
     - Postman
         + Crete a new Workspace (Click "New" | "Workspace" > "Blank workspace")
             > Name: "Ax2CDev"
@@ -19,5 +27,5 @@ CAR-DEALERSHIP API (NestJS)
                 > Name: "nestjs-car-dealership-api"
 
         + HTTP requests
-            - GET: http://localhost:3000/                       Click "Send"
-            
+            - Get all cars
+                > GET: http://localhost:3000/cars                       Click "Send"

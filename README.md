@@ -17,3 +17,7 @@ Está inspirado en la arquitectura de Angular, pero para el servidor.
 ### Módule
 
 Un módule es la unidad básica de organización de la aplicación.
+
+### Controller
+
+Un controller es una clase que maneja las solicitudes HTTP antrantes y devuleve respuestas.
