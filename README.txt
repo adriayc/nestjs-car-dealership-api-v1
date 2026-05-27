@@ -55,7 +55,7 @@ CAR-DEALERSHIP API (NestJS)
                     > Body | x-www-form-urlencoded
                         KEY                     VALUE
                         brand                   Volvo update
-                        model                   XC40
+                        model                   XC40 update
             - Delete Car
                 > DELETE: http://localhost:3000/cars/1                  Click "Send"
 
