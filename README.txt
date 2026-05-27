@@ -15,6 +15,8 @@ CAR-DEALERSHIP API (NestJS)
         + UUID
             $ yarn add uuid
             $ yarn add -D @types/uuid       (Optional: si no tiene soporte a TS)
+        + Class-Validator and Class-Transformer (Librerías externas)
+            $ yarn add class-validator class-transformer
 
     - Remover dependencias
         + Prettier
