@@ -91,3 +91,4 @@ CAR-DEALERSHIP API (NestJS)
     * VSCode
         - Atajos
             + Recargar la app  (CTRL + SHIFT + P > Search: ..."Developer: Reload Window")
+            + Vista previa Markdown (CTRL + SHIFT + P > Search: ..."Markdown: Open Preview")
