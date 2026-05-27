@@ -22,6 +22,8 @@ CAR-DEALERSHIP API (NestJS)
             $ nest g mo cars
         - Crear un controller
             $ nest g co cars
+        - Crear un service (sin archivo de test)
+            $ nest g s cars --no-spec
 
     - Postman
         + Crete a new Workspace (Click "New" | "Workspace" > "Blank workspace")
