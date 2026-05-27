@@ -11,6 +11,13 @@ CAR-DEALERSHIP API (NestJS)
         $ yarn run start                    // Run app (API URL: http://localhost:3000/)
         $ yarn run start:dev                // Run app (development mode)
 
+    - Agregar dependencias
+        + UUID
+            $ yarn add uuid
+            $ yarn add -D @types/uuid       (Optional: si no tiene soporte a TS)
+        + Class-Validator and Class-Transformer (Librerías externas)
+            $ yarn add class-validator class-transformer
+
     - Remover dependencias
         + Prettier
             $ yarn remove prettier  (optional)
@@ -36,7 +43,7 @@ CAR-DEALERSHIP API (NestJS)
             - Find All Cars
                 > GET: http://localhost:3000/cars                       Click "Send"
             - Find One By ID
-                > Get: http://localhost:3000/cars/1                     Click "Send"
+                > Get: http://localhost:3000/cars/{{UUID}}              Click "Send"
             - Create Car
                 > POST: http://localhost:3000/cars                      Click "Send"
                     > Body | x-www-form-urlencoded
@@ -44,13 +51,13 @@ CAR-DEALERSHIP API (NestJS)
                         brand                   Volvo
                         model                   XC40
             - Update Car
-                > PATCH: http://localhost:3000/cars/1                   Click "Send"
+                > PATCH: http://localhost:3000/cars/{{UUID}}            Click "Send"
                     > Body | x-www-form-urlencoded
                         KEY                     VALUE
                         brand                   Volvo update
-                        model                   XC40
+                        model                   XC40 update
             - Delete Car
-                > DELETE: http://localhost:3000/cars/1                  Click "Send"
+                > DELETE: http://localhost:3000/cars/{{UUID}}           Click "Send"
 
     * VSCode
         - Atajos
