@@ -37,6 +37,10 @@ CAR-DEALERSHIP API (NestJS)
             $ nest g resource brands --no-spec | nest g res brands --no-spec
                 > ? What transport layer do you use? REST API
                 > ? Would you like to generate CRUD entry points? (Y/n) y
+        - Crear un resource (sin archivos de test  - SEED para cargar datos)
+            $ nest g resource seed --no-spec | nest g res seed --no-spec
+                > ? What transport layer do you use? REST API
+                > ? Would you like to generate CRUD entry points? (Y/n) y
 
     - Postman
         + Crete a new Workspace (Click "New" | "Workspace" > "Blank workspace")
@@ -80,6 +84,9 @@ CAR-DEALERSHIP API (NestJS)
                             { name: "Honda update" }
                 + Remove Brand
                     > DELETE: http://localhost:3000/brands/{{UUID}}         Click "Send"
+            - SEED (Click "..." > Add folder > Name: "SEED")
+                + Populate DB
+                    > GET: http://localhost:3000/seed                       Click "Send"
 
     * VSCode
         - Atajos
