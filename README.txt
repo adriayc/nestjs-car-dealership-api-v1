@@ -21,6 +21,8 @@ CAR-DEALERSHIP API (NestJS)
     - Remover dependencias
         + Prettier
             $ yarn remove prettier  (optional)
+        + ESlint-Config-Prettier and ESlint-Plugin-Prettier (optional solo para dev)
+            $  yarn remove eslint-config-prettier eslint-plugin-prettier
 
     - Nestjs CLI
         - Ayuda de comandos
@@ -31,6 +33,10 @@ CAR-DEALERSHIP API (NestJS)
             $ nest g co cars
         - Crear un service (sin archivo de test)
             $ nest g s cars --no-spec
+        - Crear un resource (recurso completo sin archivos de test)
+            $ nest g resource brands --no-spec | nest g res brands --no-spec
+                > ? What transport layer do you use? REST API
+                > ? Would you like to generate CRUD entry points? (Y/n) y
 
     - Postman
         + Crete a new Workspace (Click "New" | "Workspace" > "Blank workspace")
