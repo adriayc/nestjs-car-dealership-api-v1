@@ -33,9 +33,9 @@ CAR-DEALERSHIP API (NestJS)
                 > Name: "nestjs-car-dealership-api"
 
         + HTTP requests
-            - Get all cars
+            - Find All Cars
                 > GET: http://localhost:3000/cars                       Click "Send"
-            - Get car by ID
+            - Find One By ID
                 > Get: http://localhost:3000/cars/1                     Click "Send"
 
     * VSCode
