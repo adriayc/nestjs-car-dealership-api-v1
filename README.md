@@ -27,3 +27,7 @@ Un controller es una clase que maneja las solicitudes HTTP antrantes y devuleve 
 Un service es el motor silecioso que hace el trabajo real detrás de escena.
 
 NOTA: Todos los services son providers y no todos los providers son services.
+
+### Pipes
+
+Los pipes son como un filtro inteligente que examina y transforma los datos antes de que lleguen a tu lógica.
