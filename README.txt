@@ -11,6 +11,10 @@ CAR-DEALERSHIP API (NestJS)
         $ yarn run start                    // Run app (API URL: http://localhost:3000/)
         $ yarn run start:dev                // Run app (development mode)
 
+    - Remover dependencias
+        + Prettier
+            $ yarn remove prettier  (optional)
+
     - Nestjs CLI
         - Ayuda de comandos
             $ nest --help | nest -h
@@ -29,3 +33,7 @@ CAR-DEALERSHIP API (NestJS)
         + HTTP requests
             - Get all cars
                 > GET: http://localhost:3000/cars                       Click "Send"
+
+    * VSCode
+        - Atajos
+            + Recargar la app  (CTRL + SHIFT + P > Search: ..."Developer: Reload Window")
