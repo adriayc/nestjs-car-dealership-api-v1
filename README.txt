@@ -51,7 +51,7 @@ CAR-DEALERSHIP API (NestJS)
                         brand                   Volvo
                         model                   XC40
             - Update Car
-                > PATCH: http://localhost:3000/cars/1                   Click "Send"
+                > PATCH: http://localhost:3000/cars/{{UUID}}            Click "Send"
                     > Body | x-www-form-urlencoded
                         KEY                     VALUE
                         brand                   Volvo update
