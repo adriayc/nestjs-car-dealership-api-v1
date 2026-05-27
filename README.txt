@@ -11,6 +11,11 @@ CAR-DEALERSHIP API (NestJS)
         $ yarn run start                    // Run app (API URL: http://localhost:3000/)
         $ yarn run start:dev                // Run app (development mode)
 
+    - Agregar dependencias
+        + UUID
+            $ yarn add uuid
+            $ yarn add -D @types/uuid       (Optional: si no tiene soporte a TS)
+
     - Remover dependencias
         + Prettier
             $ yarn remove prettier  (optional)
@@ -36,7 +41,7 @@ CAR-DEALERSHIP API (NestJS)
             - Find All Cars
                 > GET: http://localhost:3000/cars                       Click "Send"
             - Find One By ID
-                > Get: http://localhost:3000/cars/1                     Click "Send"
+                > Get: http://localhost:3000/cars/{{UUID}}              Click "Send"
             - Create Car
                 > POST: http://localhost:3000/cars                      Click "Send"
                     > Body | x-www-form-urlencoded
